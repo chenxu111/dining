@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.nbtlxx.dining.dao.FoodSaleMapper" >
+  <resultMap id="BaseResultMap" type="com.nbtlxx.dining.pojo.FoodSale" >
+    <constructor >
+      <idArg column="id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="food_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="sale_start" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+      <arg column="sale_end" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+      <arg column="price" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="status" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="create_time" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+      <arg column="update_time" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+    </constructor>
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, food_id, sale_start, sale_end, price, status, create_time, update_time
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from food_sale
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+
+  <select id="selectByStatus" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select
+    <include refid="Base_Column_List" />
+    from food_sale
+    where status = #{status,jdbcType=INTEGER}
+  </select>
+
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from food_sale
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.nbtlxx.dining.pojo.FoodSale" >
+    insert into food_sale (id, food_id, sale_start, 
+      sale_end, price, status, 
+      create_time, update_time)
+    values (#{id,jdbcType=INTEGER}, #{foodId,jdbcType=INTEGER}, #{saleStart,jdbcType=TIMESTAMP}, 
+      #{saleEnd,jdbcType=TIMESTAMP}, #{price,jdbcType=INTEGER}, #{status,jdbcType=INTEGER}, 
+      #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.nbtlxx.dining.pojo.FoodSale" >
+    insert into food_sale
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="foodId != null" >
+        food_id,
+      </if>
+      <if test="saleStart != null" >
+        sale_start,
+      </if>
+      <if test="saleEnd != null" >
+        sale_end,
+      </if>
+      <if test="price != null" >
+        price,
+      </if>
+      <if test="status != null" >
+        status,
+      </if>
+      <if test="createTime != null" >
+        create_time,
+      </if>
+      <if test="updateTime != null" >
+        update_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="foodId != null" >
+        #{foodId,jdbcType=INTEGER},
+      </if>
+      <if test="saleStart != null" >
+        #{saleStart,jdbcType=TIMESTAMP},
+      </if>
+      <if test="saleEnd != null" >
+        #{saleEnd,jdbcType=TIMESTAMP},
+      </if>
+      <if test="price != null" >
+        #{price,jdbcType=INTEGER},
+      </if>
+      <if test="status != null" >
+        #{status,jdbcType=INTEGER},
+      </if>
+      <if test="createTime != null" >
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null" >
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.nbtlxx.dining.pojo.FoodSale" >
+    update food_sale
+    <set >
+      <if test="foodId != null" >
+        food_id = #{foodId,jdbcType=INTEGER},
+      </if>
+      <if test="saleStart != null" >
+        sale_start = #{saleStart,jdbcType=TIMESTAMP},
+      </if>
+      <if test="saleEnd != null" >
+        sale_end = #{saleEnd,jdbcType=TIMESTAMP},
+      </if>
+      <if test="price != null" >
+        price = #{price,jdbcType=INTEGER},
+      </if>
+      <if test="status != null" >
+        status = #{status,jdbcType=INTEGER},
+      </if>
+      <if test="createTime != null" >
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null" >
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.nbtlxx.dining.pojo.FoodSale" >
+    update food_sale
+    set food_id = #{foodId,jdbcType=INTEGER},
+      sale_start = #{saleStart,jdbcType=TIMESTAMP},
+      sale_end = #{saleEnd,jdbcType=TIMESTAMP},
+      price = #{price,jdbcType=INTEGER},
+      status = #{status,jdbcType=INTEGER},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

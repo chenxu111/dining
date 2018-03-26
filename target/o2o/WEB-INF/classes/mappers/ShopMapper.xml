@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.nbtlxx.dao.ShopMapper" >
+  <resultMap id="BaseResultMap" type="com.nbtlxx.pojo.Shop" >
+    <constructor >
+      <idArg column="shop_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="owner_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="area_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="shop_category_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="shop_name" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="shop_desc" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="shop_addr" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="shop_phone" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="shop_img" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="priority" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="enable_status" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="advice" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="create_time" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+      <arg column="lasst_edit_time" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+    </constructor>
+  </resultMap>
+  <sql id="Base_Column_List" >
+    shop_id, owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, shop_phone, 
+    shop_img, priority, enable_status, advice, create_time, lasst_edit_time
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from tb_shop
+    where shop_id = #{shopId,jdbcType=INTEGER}
+  </select>
+  <select id="selectByUserId" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select
+    <include refid="Base_Column_List" />
+    from tb_shop
+    where owner_id = #{userId,jdbcType=INTEGER}
+  </select>
+
+  <select id="selectByUserIdShopId" resultMap="BaseResultMap" >
+    select
+    <include refid="Base_Column_List" />
+    from tb_shop
+    where owner_id = #{userId,jdbcType=INTEGER}
+    and shop_id = #{shopId, jdbcType=INTEGER}
+  </select>
+
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from tb_shop
+    where shop_id = #{shopId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.nbtlxx.pojo.Shop" useGeneratedKeys="true" keyProperty="shopId">
+    insert into tb_shop (shop_id, owner_id, area_id, 
+      shop_category_id, shop_name, shop_desc, 
+      shop_addr, shop_phone, shop_img, 
+      priority, enable_status, advice, 
+      create_time, lasst_edit_time)
+    values (#{shopId,jdbcType=INTEGER}, #{ownerId,jdbcType=INTEGER}, #{areaId,jdbcType=INTEGER}, 
+      #{shopCategoryId,jdbcType=INTEGER}, #{shopName,jdbcType=VARCHAR}, #{shopDesc,jdbcType=VARCHAR}, 
+      #{shopAddr,jdbcType=VARCHAR}, #{shopPhone,jdbcType=VARCHAR}, #{shopImg,jdbcType=VARCHAR}, 
+      #{priority,jdbcType=INTEGER}, #{enableStatus,jdbcType=INTEGER}, #{advice,jdbcType=VARCHAR}, 
+      #{createTime,jdbcType=TIMESTAMP}, #{lasstEditTime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.nbtlxx.pojo.Shop" >
+    insert into tb_shop
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="shopId != null" >
+        shop_id,
+      </if>
+      <if test="ownerId != null" >
+        owner_id,
+      </if>
+      <if test="areaId != null" >
+        area_id,
+      </if>
+      <if test="shopCategoryId != null" >
+        shop_category_id,
+      </if>
+      <if test="shopName != null" >
+        shop_name,
+      </if>
+      <if test="shopDesc != null" >
+        shop_desc,
+      </if>
+      <if test="shopAddr != null" >
+        shop_addr,
+      </if>
+      <if test="shopPhone != null" >
+        shop_phone,
+      </if>
+      <if test="shopImg != null" >
+        shop_img,
+      </if>
+      <if test="priority != null" >
+        priority,
+      </if>
+      <if test="enableStatus != null" >
+        enable_status,
+      </if>
+      <if test="advice != null" >
+        advice,
+      </if>
+      <if test="createTime != null" >
+        create_time,
+      </if>
+      <if test="lasstEditTime != null" >
+        lasst_edit_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="shopId != null" >
+        #{shopId,jdbcType=INTEGER},
+      </if>
+      <if test="ownerId != null" >
+        #{ownerId,jdbcType=INTEGER},
+      </if>
+      <if test="areaId != null" >
+        #{areaId,jdbcType=INTEGER},
+      </if>
+      <if test="shopCategoryId != null" >
+        #{shopCategoryId,jdbcType=INTEGER},
+      </if>
+      <if test="shopName != null" >
+        #{shopName,jdbcType=VARCHAR},
+      </if>
+      <if test="shopDesc != null" >
+        #{shopDesc,jdbcType=VARCHAR},
+      </if>
+      <if test="shopAddr != null" >
+        #{shopAddr,jdbcType=VARCHAR},
+      </if>
+      <if test="shopPhone != null" >
+        #{shopPhone,jdbcType=VARCHAR},
+      </if>
+      <if test="shopImg != null" >
+        #{shopImg,jdbcType=VARCHAR},
+      </if>
+      <if test="priority != null" >
+        #{priority,jdbcType=INTEGER},
+      </if>
+      <if test="enableStatus != null" >
+        #{enableStatus,jdbcType=INTEGER},
+      </if>
+      <if test="advice != null" >
+        #{advice,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null" >
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="lasstEditTime != null" >
+        #{lasstEditTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.nbtlxx.pojo.Shop" >
+    update tb_shop
+    <set >
+      <if test="ownerId != null" >
+        owner_id = #{ownerId,jdbcType=INTEGER},
+      </if>
+      <if test="areaId != null" >
+        area_id = #{areaId,jdbcType=INTEGER},
+      </if>
+      <if test="shopCategoryId != null" >
+        shop_category_id = #{shopCategoryId,jdbcType=INTEGER},
+      </if>
+      <if test="shopName != null" >
+        shop_name = #{shopName,jdbcType=VARCHAR},
+      </if>
+      <if test="shopDesc != null" >
+        shop_desc = #{shopDesc,jdbcType=VARCHAR},
+      </if>
+      <if test="shopAddr != null" >
+        shop_addr = #{shopAddr,jdbcType=VARCHAR},
+      </if>
+      <if test="shopPhone != null" >
+        shop_phone = #{shopPhone,jdbcType=VARCHAR},
+      </if>
+      <if test="shopImg != null" >
+        shop_img = #{shopImg,jdbcType=VARCHAR},
+      </if>
+      <if test="priority != null" >
+        priority = #{priority,jdbcType=INTEGER},
+      </if>
+      <if test="enableStatus != null" >
+        enable_status = #{enableStatus,jdbcType=INTEGER},
+      </if>
+      <if test="advice != null" >
+        advice = #{advice,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null" >
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="lasstEditTime != null" >
+        lasst_edit_time = #{lasstEditTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where shop_id = #{shopId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.nbtlxx.pojo.Shop" >
+    update tb_shop
+    set owner_id = #{ownerId,jdbcType=INTEGER},
+      area_id = #{areaId,jdbcType=INTEGER},
+      shop_category_id = #{shopCategoryId,jdbcType=INTEGER},
+      shop_name = #{shopName,jdbcType=VARCHAR},
+      shop_desc = #{shopDesc,jdbcType=VARCHAR},
+      shop_addr = #{shopAddr,jdbcType=VARCHAR},
+      shop_phone = #{shopPhone,jdbcType=VARCHAR},
+      shop_img = #{shopImg,jdbcType=VARCHAR},
+      priority = #{priority,jdbcType=INTEGER},
+      enable_status = #{enableStatus,jdbcType=INTEGER},
+      advice = #{advice,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      lasst_edit_time = #{lasstEditTime,jdbcType=TIMESTAMP}
+    where shop_id = #{shopId,jdbcType=INTEGER}
+  </update>
+</mapper>

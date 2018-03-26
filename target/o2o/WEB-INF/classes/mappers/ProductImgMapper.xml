@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.nbtlxx.dao.ProductImgMapper" >
+  <resultMap id="BaseResultMap" type="com.nbtlxx.pojo.ProductImg" >
+    <constructor >
+      <idArg column="product_img_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="product_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="image_addr" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="image_desc" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="priority" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="create_time" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+    </constructor>
+  </resultMap>
+  <sql id="Base_Column_List" >
+    product_img_id, product_id, image_addr, image_desc, priority, create_time
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from tb_product_img
+    where product_img_id = #{productImgId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from tb_product_img
+    where product_img_id = #{productImgId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.nbtlxx.pojo.ProductImg" >
+    insert into tb_product_img (product_img_id, product_id, image_addr, 
+      image_desc, priority, create_time
+      )
+    values (#{productImgId,jdbcType=INTEGER}, #{productId,jdbcType=INTEGER}, #{imageAddr,jdbcType=VARCHAR}, 
+      #{imageDesc,jdbcType=VARCHAR}, #{priority,jdbcType=INTEGER}, #{createTime,jdbcType=TIMESTAMP}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.nbtlxx.pojo.ProductImg" >
+    insert into tb_product_img
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="productImgId != null" >
+        product_img_id,
+      </if>
+      <if test="productId != null" >
+        product_id,
+      </if>
+      <if test="imageAddr != null" >
+        image_addr,
+      </if>
+      <if test="imageDesc != null" >
+        image_desc,
+      </if>
+      <if test="priority != null" >
+        priority,
+      </if>
+      <if test="createTime != null" >
+        create_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="productImgId != null" >
+        #{productImgId,jdbcType=INTEGER},
+      </if>
+      <if test="productId != null" >
+        #{productId,jdbcType=INTEGER},
+      </if>
+      <if test="imageAddr != null" >
+        #{imageAddr,jdbcType=VARCHAR},
+      </if>
+      <if test="imageDesc != null" >
+        #{imageDesc,jdbcType=VARCHAR},
+      </if>
+      <if test="priority != null" >
+        #{priority,jdbcType=INTEGER},
+      </if>
+      <if test="createTime != null" >
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.nbtlxx.pojo.ProductImg" >
+    update tb_product_img
+    <set >
+      <if test="productId != null" >
+        product_id = #{productId,jdbcType=INTEGER},
+      </if>
+      <if test="imageAddr != null" >
+        image_addr = #{imageAddr,jdbcType=VARCHAR},
+      </if>
+      <if test="imageDesc != null" >
+        image_desc = #{imageDesc,jdbcType=VARCHAR},
+      </if>
+      <if test="priority != null" >
+        priority = #{priority,jdbcType=INTEGER},
+      </if>
+      <if test="createTime != null" >
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where product_img_id = #{productImgId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.nbtlxx.pojo.ProductImg" >
+    update tb_product_img
+    set product_id = #{productId,jdbcType=INTEGER},
+      image_addr = #{imageAddr,jdbcType=VARCHAR},
+      image_desc = #{imageDesc,jdbcType=VARCHAR},
+      priority = #{priority,jdbcType=INTEGER},
+      create_time = #{createTime,jdbcType=TIMESTAMP}
+    where product_img_id = #{productImgId,jdbcType=INTEGER}
+  </update>
+</mapper>
