@@ -2,461 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2600e796-60ae-4ab3-ac5c-dfb8afdd9a47" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reqirement.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/watermark.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/tools/mysql-connector-java-5.1.6-bin.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/common/Const$AlipayCallback.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/common/Const$Cart.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/common/Const$OrderStatusEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/common/Const$PayPlatformEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/common/Const$PaymentTypeEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/common/Const$ProductListOrderBy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/common/Const$ProductStatusEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/common/Const$Role.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/common/Const.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/common/ImageHolder.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/common/ResponseCode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/common/ServerResponse.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/common/TokenCache$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/common/TokenCache.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/controller/admin/AdminController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/controller/admin/FoodManageController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/controller/admin/FoodSaleManageController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/controller/admin/OrderManagerController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/controller/frontend/FrontEndController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/dao/DepartmentMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/dao/FoodItemMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/dao/FoodSaleMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/dao/OrderInfoMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/dao/UserInfoMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/dto/FoodExecution.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/enums/FoodStateEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/exception/FoodItemException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/exception/ShopOperationException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/pojo/Department.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/pojo/FoodItem.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/pojo/FoodSale.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/pojo/Headline.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/pojo/OrderInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/pojo/PersonInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/pojo/Product.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/pojo/ProductCategory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/pojo/ProductImg.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/pojo/Shop.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/pojo/ShopCategory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/pojo/UserInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/service/FoodSaleService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/service/FoodService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/service/impl/FoodSalesServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/service/impl/FoodServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/util/HttpServletRequestUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/util/ImageUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/util/PathUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/nbtlxx/dining/vo/FoodSaleVo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/watermark.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining.war" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/common/Const$AlipayCallback.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/common/Const$Cart.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/common/Const$OrderStatusEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/common/Const$PayPlatformEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/common/Const$PaymentTypeEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/common/Const$ProductListOrderBy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/common/Const$ProductStatusEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/common/Const$Role.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/common/Const.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/common/ImageHolder.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/common/ResponseCode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/common/ServerResponse.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/common/TokenCache$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/common/TokenCache.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/controller/admin/AdminController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/controller/admin/FoodManageController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/controller/admin/FoodSaleManageController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/controller/admin/OrderManagerController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/controller/frontend/FrontEndController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/dao/DepartmentMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/dao/FoodItemMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/dao/FoodSaleMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/dao/OrderInfoMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/dao/UserInfoMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/dto/FoodExecution.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/enums/FoodStateEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/exception/FoodItemException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/exception/ShopOperationException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/pojo/Department.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/pojo/FoodItem.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/pojo/FoodSale.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/pojo/Headline.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/pojo/OrderInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/pojo/PersonInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/pojo/Product.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/pojo/ProductCategory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/pojo/ProductImg.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/pojo/Shop.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/pojo/ShopCategory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/pojo/UserInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/service/FoodSaleService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/service/FoodService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/service/impl/FoodSalesServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/service/impl/FoodServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/util/HttpServletRequestUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/util/ImageUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/util/PathUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/com/nbtlxx/dining/vo/FoodSaleVo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/watermark.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/aopalliance-1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/aspectjrt-1.6.11.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/aspectjweaver-1.7.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/commons-codec-1.10.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/commons-collections-3.2.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/commons-configuration-1.10.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/commons-dbcp-1.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/commons-fileupload-1.2.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/commons-io-2.0.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/commons-lang-2.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/commons-lang3-3.5.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/commons-logging-1.1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/commons-net-3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/commons-pool-1.5.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/commons-pool2-2.4.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/core-2.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/gson-2.3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/guava-20.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/hamcrest-core-1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/hashids-1.0.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/jackson-core-asl-1.9.12.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/jackson-mapper-asl-1.9.12.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/jedis-2.9.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/joda-time-2.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/jsqlparser-0.9.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/junit-4.12.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/logback-classic-1.1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/logback-core-1.1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/mybatis-3.4.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/mybatis-paginator-1.2.17.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/mybatis-spring-1.3.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/mysql-connector-java-5.1.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/pagehelper-4.1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/slf4j-api-1.7.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/spring-oxm-4.0.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/spring-test-4.0.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/thumbnailator-0.4.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/lib/tomcat-servlet-api-7.0.64.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/common/Const$AlipayCallback.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/common/Const$Cart.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/common/Const$OrderStatusEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/common/Const$PayPlatformEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/common/Const$PaymentTypeEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/common/Const$ProductListOrderBy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/common/Const$ProductStatusEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/common/Const$Role.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/common/Const.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/common/ImageHolder.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/common/ResponseCode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/common/ServerResponse.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/common/TokenCache$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/common/TokenCache.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/controller/frontend/FrontEndController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/controller/frontend/MainPageController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/controller/shopadmin/ProductCategoryManageController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/controller/shopadmin/ProductManageController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/controller/shopadmin/ShopAdminController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/controller/shopadmin/ShopManageController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/controller/superadmin/AreaController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/dao/AreaMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/dao/HeadlineMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/dao/PersonInfoMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/dao/ProductCategoryMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/dao/ProductImgMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/dao/ProductMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/dao/ShopCategoryMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/dao/ShopMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/exception/ShopOperationException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/pojo/Area.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/pojo/Headline.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/pojo/PersonInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/pojo/Product.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/pojo/ProductCategory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/pojo/ProductImg.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/pojo/Shop.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/pojo/ShopCategory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/service/AreaService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/service/HeadLineService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/service/ProductCategorySerivice.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/service/ProductService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/service/ShopCategoryService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/service/ShopService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/service/impl/AreaServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/service/impl/HeadlineServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/service/impl/ProductCategoryServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/service/impl/ProductServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/service/impl/ShopCategoryServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/service/impl/ShopServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/util/HttpServletRequestUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/util/ImageUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/nbtlxx/util/PathUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/watermark.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/aopalliance-1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/aspectjrt-1.6.11.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/aspectjweaver-1.7.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/commons-codec-1.10.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/commons-collections-3.2.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/commons-configuration-1.10.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/commons-dbcp-1.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/commons-fileupload-1.2.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/commons-io-2.0.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/commons-lang-2.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/commons-lang3-3.5.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/commons-logging-1.1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/commons-net-3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/commons-pool-1.5.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/commons-pool2-2.4.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/core-2.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/gson-2.3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/guava-20.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/hamcrest-core-1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/hashids-1.0.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/jackson-core-asl-1.9.12.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/jackson-mapper-asl-1.9.12.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/jedis-2.9.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/joda-time-2.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/jsqlparser-0.9.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/junit-4.12.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/logback-classic-1.1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/logback-core-1.1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/mybatis-3.4.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/mybatis-paginator-1.2.17.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/mybatis-spring-1.3.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/mysql-connector-java-5.1.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/pagehelper-4.1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/slf4j-api-1.7.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/spring-oxm-4.0.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/spring-test-4.0.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/thumbnailator-0.4.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/lib/tomcat-servlet-api-7.0.64.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/o2o_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/o2o_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_miemiedev_mybatis_paginator_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_core_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_coobird_thumbnailator_0_4_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_7_0_64.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_6_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_7_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hashids_hashids_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dining.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/diningsys.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/common/Const.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/common/ImageHolder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/common/ResponseCode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/common/ServerResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/common/TokenCache.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/controller/admin/AdminController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/controller/admin/FoodManageController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/controller/admin/FoodOrderController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/controller/admin/FoodSaleManageController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/controller/admin/OrderManagerController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/controller/frontend/FrontEndController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/dao/DepartmentMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/dao/FoodItemMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/dao/FoodSaleMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/dao/OrderInfoMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/dao/UserInfoMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/dto/FoodExecution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/enums/FoodStateEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/exception/FoodItemException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/exception/ShopOperationException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/pojo/Department.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/pojo/FoodItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/pojo/FoodSale.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/pojo/OrderInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/pojo/UserInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/service/FoodSaleService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/service/FoodService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/service/OrderService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/service/impl/FoodSalesServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/service/impl/FoodServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/service/impl/OrderServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/util/HttpServletRequestUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/util/ImageUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/util/PathUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/vo/FoodSaleVo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/vo/OrderParam.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/vo/OrderVo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/datasource.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mappers/DepartmentMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mappers/FoodItemMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mappers/FoodSaleMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mappers/OrderInfoMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mappers/UserInfoMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/admin/foodlist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/admin/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/foodlist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/shoplist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productcategorymanagement.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productmanage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productoperation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shoplist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopmanagement.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopoperation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/common/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/frontend/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/shop/productcategorymanagement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/shop/productmanage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/shop/productoperation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/shop/shoplist.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/shop/shopmanagement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/shop/shopoperation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/applicationContext-datasource.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/datasource.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/generatorConfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mappers/DepartmentMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mappers/FoodItemMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mappers/FoodSaleMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mappers/OrderInfoMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mappers/UserInfoMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/applicationContext-datasource.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/datasource.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/generatorConfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/mappers/DepartmentMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/mappers/FoodItemMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/mappers/FoodSaleMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/mappers/OrderInfoMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/classes/mappers/UserInfoMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/dispatcher-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/html/admin/foodlist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/html/admin/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/html/frontend/foodlist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/html/frontend/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/html/frontend/shoplist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/html/shop/productcategorymanagement.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/html/shop/productmanage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/html/shop/productoperation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/html/shop/shoplist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/html/shop/shopmanagement.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/html/shop/shopoperation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/resources/js/common/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/resources/js/frontend/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/resources/js/shop/productcategorymanagement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/resources/js/shop/productmanage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/resources/js/shop/productoperation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/resources/js/shop/shoplist.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/resources/js/shop/shopmanagement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/dining/resources/js/shop/shopoperation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/applicationContext-datasource.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/datasource.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/generatorConfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/mappers/AreaMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/mappers/HeadlineMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/mappers/PersonInfoMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/mappers/ProductCategoryMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/mappers/ProductImgMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/mappers/ProductMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/mappers/ShopCategoryMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/mappers/ShopMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/dispatcher-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/html/frontend/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/html/frontend/shoplist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/html/shop/productcategorymanagement.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/html/shop/productmanage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/html/shop/productoperation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/html/shop/shoplist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/html/shop/shopmanagement.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/html/shop/shopoperation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/resources/js/common/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/resources/js/frontend/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/resources/js/shop/productcategorymanagement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/resources/js/shop/productmanage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/resources/js/shop/productoperation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/resources/js/shop/shoplist.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/resources/js/shop/shopmanagement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/o2o/resources/js/shop/shopoperation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -524,8 +71,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="1062">
+              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -657,6 +204,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/service/impl/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/service/OrderService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nbtlxx/dining/controller/frontend/FrontEndController.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -1449,15 +997,16 @@
       <workItem from="1521596303284" duration="8369000" />
       <workItem from="1521783101672" duration="5061000" />
       <workItem from="1521809424254" duration="4306000" />
-      <workItem from="1522034686754" duration="443000" />
+      <workItem from="1522034686754" duration="568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42776000" />
+    <option name="totallyTimeSpent" value="42901000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1609" y="-200" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1480,7 +1029,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.78886974" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11997074" sideWeight="0.46367186" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27539343" sideWeight="0.74069625" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12780163" sideWeight="0.25930372" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1914,8 +1463,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="1062">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding />
         </state>
       </provider>
