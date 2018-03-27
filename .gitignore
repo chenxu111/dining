@@ -63,3 +63,5 @@ diningsys.iml
 pom.xml
 reqirement.docx
 src/
+/target/*
+.class

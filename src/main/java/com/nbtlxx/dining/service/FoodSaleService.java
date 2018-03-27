@@ -17,4 +17,6 @@ public interface FoodSaleService {
     boolean addFoodSale(FoodSale foodSale);
 
     boolean updateFood(Integer foodSaleId, String foodName, String desc, Integer price, String foodimg);
+
+    FoodSaleVo detail(int id);
 }

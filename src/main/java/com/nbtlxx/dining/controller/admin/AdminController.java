@@ -20,4 +20,9 @@ public class AdminController {
     public String foodlist(){
         return "admin/foodlist";
     }
+
+    @RequestMapping(value = "detail",method = RequestMethod.GET)
+    public String detail(){
+        return "admin/detail";
+    }
 }

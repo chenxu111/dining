@@ -7,6 +7,7 @@ public class FoodSaleVo {
     private int id;
     private String foodName;
     private Double price;
+    private String description;
     private String imageUrl;
     private int status;
 
@@ -51,5 +52,14 @@ public class FoodSaleVo {
 
     public void setImageUrl(String imageUrl) {
         this.imageUrl = imageUrl;
+
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

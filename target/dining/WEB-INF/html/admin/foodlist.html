@@ -2,50 +2,28 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Bootstrap 实例 - 标签页（Tab）插件</title>
+    <title>微信食堂订餐系统</title>
     <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../resources/js/admin/foodlist.js"></script>
 </head>
 <body>
 
 <ul id="myTab" class="nav nav-tabs">
     <li class="active">
-        <a href="#published" data-toggle="tab">
+        <a href="#published" data-toggle="tab" onclick="loadata(0);">
             发布商品
         </a>
     </li>
-    <li><a href="#unpublished" data-toggle="tab">未发布商品</a></li>
+    <li><a href="#unpublished" data-toggle="tab" onclick="loaddata(1);">未发布商品</a></li>
 </ul>
+
 <div id="myTabContent" class="tab-content">
     <div class="tab-pane fade in active" id="published">
-        <div class="list-group">
-            <a href="#" class="list-group-item active">
-                <h4 class="list-group-item-heading">
-                    入门网站包
-                </h4>
-            </a>
-            <a href="#" class="list-group-item">
-                <h4 class="list-group-item-heading">
-                    免费域名注册
-                </h4>
-                <p class="list-group-item-text">
-                    您将通过网页进行免费域名注册。
-                </p>
-            </a>
-            <a href="#" class="list-group-item">
-                <h4 class="list-group-item-heading">
-                    24*7 支持
-                </h4>
-                <p class="list-group-item-text">
-                    我们提供 24*7 支持。xxxx
-                </p>
-            </a>
-        </div>
     </div>
+
     <div class="tab-pane fade" id="unpublished">
-        <p>iOS 是一个由苹果公司开发和发布的手机操作系统。最初是于 2007 年首次发布 iPhone、iPod Touch 和 Apple
-            TV。iOS 派生自 OS X，它们共享 Darwin 基础。OS X 操作系统是用在苹果电脑上，iOS 是苹果的移动版本。</p>
     </div>
 </div>
 

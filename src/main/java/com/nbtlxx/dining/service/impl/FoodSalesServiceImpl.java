@@ -81,6 +81,30 @@ public class FoodSalesServiceImpl implements FoodSaleService {
     }
 
     @Override
+    public FoodSaleVo detail(int id) {
+
+        FoodSale foodSale = foodSaleMapper.selectByPrimaryKey(id);
+        if (foodSale==null){
+            throw new RuntimeException("");
+        }
+
+        int foodId = foodSale.getFoodId();
+        FoodItem foodItem = foodItemMapper.selectByPrimaryKey(foodId);
+        if (foodItem == null){
+            throw new RuntimeException("");
+        }
+
+        FoodSaleVo vo =new FoodSaleVo();
+        vo.setPrice((double)foodSale.getPrice());
+        vo.setImageUrl(foodItem.getFoodImage());
+        vo.setStatus(foodSale.getStatus());
+        vo.setFoodName(foodItem.getFoodName());
+        vo.setDescription(foodItem.getFoodDesc());
+
+        return vo;
+    }
+
+    @Override
     public boolean updateFood(Integer foodSaleId, String foodName, String desc, Integer price, String foodimg) {
         FoodSale foodSale = null;
         try {
